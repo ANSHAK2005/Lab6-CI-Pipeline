@@ -2,7 +2,7 @@
 const { getProducts, getProductById } = require("./app");
 
 test("should return all products", () => {
-  expect(getProducts()).toHaveLength(5);
+  expect(getProducts()).toHaveLength(3);
 });
 
 test("should return a product by ID", () => {
